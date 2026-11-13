@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "symbol": "",
+  "side": "HOLD",
+  "quantity": -5,
+  "price": 100
+}
